@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Samur\\source\\repos\\MicroServices\\Services\\Catalog\\Course.Services.Catalog\\Course.Services.Catalog.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Samur\\source\\repos\\MicroServices\\Services\\Catalog\\Course.Services.Catalog\\Course.Services.Catalog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Samur\\source\\repos\\MicroServices\\Services\\Catalog\\Course.Services.Catalog\\Course.Services.Catalog.csproj",
+        "projectName": "Course.Services.Catalog",
+        "projectPath": "C:\\Users\\Samur\\source\\repos\\MicroServices\\Services\\Catalog\\Course.Services.Catalog\\Course.Services.Catalog.csproj",
+        "packagesPath": "C:\\Users\\Samur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Samur\\source\\repos\\MicroServices\\Services\\Catalog\\Course.Services.Catalog\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Samur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Samur\\source\\repos\\MicroServices\\Shared\\FreeCource.Shared\\FreeCource.Shared.csproj": {
+                "projectPath": "C:\\Users\\Samur\\source\\repos\\MicroServices\\Shared\\FreeCource.Shared\\FreeCource.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Samur\\source\\repos\\MicroServices\\Shared\\FreeCource.Shared\\FreeCource.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Samur\\source\\repos\\MicroServices\\Shared\\FreeCource.Shared\\FreeCource.Shared.csproj",
+        "projectName": "FreeCource.Shared",
+        "projectPath": "C:\\Users\\Samur\\source\\repos\\MicroServices\\Shared\\FreeCource.Shared\\FreeCource.Shared.csproj",
+        "packagesPath": "C:\\Users\\Samur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Samur\\source\\repos\\MicroServices\\Shared\\FreeCource.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Samur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

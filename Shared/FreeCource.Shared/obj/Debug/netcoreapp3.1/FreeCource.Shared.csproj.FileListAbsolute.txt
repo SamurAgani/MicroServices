@@ -1,0 +1,10 @@
+C:\Users\Samur\source\repos\MicroServices\Shared\FreeCource.Shared\obj\Debug\netcoreapp3.1\FreeCource.Shared.csproj.AssemblyReference.cache
+C:\Users\Samur\source\repos\MicroServices\Shared\FreeCource.Shared\obj\Debug\netcoreapp3.1\FreeCource.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samur\source\repos\MicroServices\Shared\FreeCource.Shared\obj\Debug\netcoreapp3.1\FreeCource.Shared.AssemblyInfoInputs.cache
+C:\Users\Samur\source\repos\MicroServices\Shared\FreeCource.Shared\obj\Debug\netcoreapp3.1\FreeCource.Shared.AssemblyInfo.cs
+C:\Users\Samur\source\repos\MicroServices\Shared\FreeCource.Shared\obj\Debug\netcoreapp3.1\FreeCource.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Samur\source\repos\MicroServices\Shared\FreeCource.Shared\bin\Debug\netcoreapp3.1\FreeCource.Shared.deps.json
+C:\Users\Samur\source\repos\MicroServices\Shared\FreeCource.Shared\bin\Debug\netcoreapp3.1\FreeCource.Shared.dll
+C:\Users\Samur\source\repos\MicroServices\Shared\FreeCource.Shared\bin\Debug\netcoreapp3.1\FreeCource.Shared.pdb
+C:\Users\Samur\source\repos\MicroServices\Shared\FreeCource.Shared\obj\Debug\netcoreapp3.1\FreeCource.Shared.dll
+C:\Users\Samur\source\repos\MicroServices\Shared\FreeCource.Shared\obj\Debug\netcoreapp3.1\FreeCource.Shared.pdb

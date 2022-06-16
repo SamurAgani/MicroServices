@@ -1,0 +1,4 @@
+services
+ Catalog Api => 5011
+ photostock 5012
+identity => 5001
