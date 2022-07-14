@@ -36,8 +36,7 @@ namespace FreeCourse.IdentityServer.Services
                 context.Result.CustomResponse = errors;
                 return;
             }
-
-            context.Request = new ValidatedTokenRequest();
+            context.Result = new GrantValidationResult(existUser.Id.ToString(), OidcConstants.AuthenticationMethods.Password);
         }
     }
 }

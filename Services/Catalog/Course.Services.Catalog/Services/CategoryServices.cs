@@ -33,7 +33,7 @@ namespace Course.Services.Catalog.Services
         }
 
 
-        public async Task<Response<CategoryDto>>CreateAsync(CategoryDto categorydto)
+        public async Task<Response<CategoryDto>>CreateAsync(CategoryDto categorydto) 
         {
             var category = _mapper.Map<Category>(categorydto);
             await _categoryCollection.InsertOneAsync(category);

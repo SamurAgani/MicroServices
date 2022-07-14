@@ -49,7 +49,7 @@ namespace FreeCourse.IdentityServer
                 appLicationContext.Database.Migrate();
 
                 var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
-                if (!userManager.Users.Any())
+                if (userManager.Users.Count()<1)
                 {
                     userManager.CreateAsync(new ApplicationUser()
                     {

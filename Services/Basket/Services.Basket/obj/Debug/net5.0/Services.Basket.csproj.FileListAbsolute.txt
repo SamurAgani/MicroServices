@@ -5,7 +5,6 @@ C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\bin\De
 C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\bin\Debug\net5.0\Services.Basket.runtimeconfig.json
 C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\bin\Debug\net5.0\Services.Basket.runtimeconfig.dev.json
 C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\bin\Debug\net5.0\Services.Basket.dll
-C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\bin\Debug\net5.0\ref\Services.Basket.dll
 C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\bin\Debug\net5.0\Services.Basket.pdb
 C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\bin\Debug\net5.0\Pipelines.Sockets.Unofficial.dll
@@ -28,7 +27,6 @@ C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\obj\De
 C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\obj\Debug\net5.0\Services.Basket.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\obj\Debug\net5.0\Services.Basket.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\obj\Debug\net5.0\staticwebassets\Services.Basket.StaticWebAssets.Manifest.cache
-C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\obj\Debug\net5.0\staticwebassets\Services.Basket.StaticWebAssets.xml
 C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\obj\Debug\net5.0\scopedcss\bundle\Services.Basket.styles.css
 C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\obj\Debug\net5.0\Services.Basket.RazorTargetAssemblyInfo.cache
 C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\obj\Debug\net5.0\Services.Basket.csproj.CopyComplete
@@ -36,3 +34,11 @@ C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\obj\De
 C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\obj\Debug\net5.0\ref\Services.Basket.dll
 C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\obj\Debug\net5.0\Services.Basket.pdb
 C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\obj\Debug\net5.0\Services.Basket.genruntimeconfig.cache
+C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\obj\Debug\net5.0\refint\Services.Basket.dll
+C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Samur\source\repos\MicroServices\Services\Basket\Services.Basket\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

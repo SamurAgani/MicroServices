@@ -92,7 +92,6 @@ C:\Users\Samur\source\repos\MicroServices\IdentityServer\FreeCourse.IdentityServ
 C:\Users\Samur\source\repos\MicroServices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.RazorAssemblyInfo.cs
 C:\Users\Samur\source\repos\MicroServices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\staticwebassets\FreeCourse.IdentityServer.StaticWebAssets.Manifest.cache
 C:\Users\Samur\source\repos\MicroServices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\staticwebassets\FreeCourse.IdentityServer.StaticWebAssets.xml
-C:\Users\Samur\source\repos\MicroServices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\scopedcss\bundle\FreeCourse.IdentityServer.styles.css
 C:\Users\Samur\source\repos\MicroServices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.TagHelpers.input.cache
 C:\Users\Samur\source\repos\MicroServices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.TagHelpers.output.cache
 C:\Users\Samur\source\repos\MicroServices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.RazorCoreGenerate.cache
