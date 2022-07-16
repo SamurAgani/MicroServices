@@ -24,7 +24,6 @@ namespace Services.Basket.Controllers
         [HttpGet]
         public async Task<IActionResult> GetBasket()
         {
-            var cailms = User.Claims;
             return CreateActionResultInstance(await basketServices.GetBasket(sharedIdentityService.GetUserId()));
         }
         [HttpPost]

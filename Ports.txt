@@ -2,4 +2,5 @@ services
  Catalog Api => 5011
  photostock  => 5012
  Basket  => 5013
+ dicount => 5014
 identity => 5001
