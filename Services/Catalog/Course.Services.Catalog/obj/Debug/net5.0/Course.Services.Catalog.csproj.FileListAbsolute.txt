@@ -5,7 +5,6 @@ C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catal
 C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\bin\Debug\net5.0\Course.Services.Catalog.runtimeconfig.json
 C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\bin\Debug\net5.0\Course.Services.Catalog.runtimeconfig.dev.json
 C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\bin\Debug\net5.0\Course.Services.Catalog.dll
-C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\bin\Debug\net5.0\ref\Course.Services.Catalog.dll
 C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\bin\Debug\net5.0\Course.Services.Catalog.pdb
 C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -18,7 +17,6 @@ C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catal
 C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\obj\Debug\net5.0\Course.Services.Catalog.csproj.CoreCompileInputs.cache
 C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\obj\Debug\net5.0\Course.Services.Catalog.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\obj\Debug\net5.0\staticwebassets\Course.Services.Catalog.StaticWebAssets.Manifest.cache
-C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\obj\Debug\net5.0\staticwebassets\Course.Services.Catalog.StaticWebAssets.xml
 C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\obj\Debug\net5.0\scopedcss\bundle\Course.Services.Catalog.styles.css
 C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\obj\Debug\net5.0\Course.Services.Catalog.RazorTargetAssemblyInfo.cache
 C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\obj\Debug\net5.0\Course.Services.Catalog.csproj.CopyComplete
@@ -58,3 +56,4 @@ C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catal
 C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Samur\source\repos\MicroServices\Services\Catalog\Course.Services.Catalog\obj\Debug\net5.0\refint\Course.Services.Catalog.dll
