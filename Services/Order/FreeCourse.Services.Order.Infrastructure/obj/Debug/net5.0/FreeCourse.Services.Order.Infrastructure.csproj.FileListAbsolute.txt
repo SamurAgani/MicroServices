@@ -15,3 +15,6 @@ C:\Users\Samur\source\repos\MicroServices\Services\Order\FreeCourse.Services.Ord
 C:\Users\Samur\source\repos\MicroServices\Services\Order\FreeCourse.Services.Order.Infrastructure\bin\Debug\net5.0\FreeCourse.Services.Order.Domain.pdb
 C:\Users\Samur\source\repos\MicroServices\Services\Order\FreeCourse.Services.Order.Infrastructure\bin\Debug\net5.0\FreeCourse.Services.Order.Domain.Core.pdb
 C:\Users\Samur\source\repos\MicroServices\Services\Order\FreeCourse.Services.Order.Infrastructure\obj\Debug\net5.0\FreeCourse.Services.Order.Infrastructure.csproj.CopyComplete
+C:\Users\Samur\source\repos\MicroServices\Services\Order\FreeCourse.Services.Order.Infrastructure\bin\Debug\net5.0\FreeCourse.Services.Order.Infrastructure.runtimeconfig.json
+C:\Users\Samur\source\repos\MicroServices\Services\Order\FreeCourse.Services.Order.Infrastructure\bin\Debug\net5.0\FreeCourse.Services.Order.Infrastructure.runtimeconfig.dev.json
+C:\Users\Samur\source\repos\MicroServices\Services\Order\FreeCourse.Services.Order.Infrastructure\obj\Debug\net5.0\FreeCourse.Services.Order.Infrastructure.genruntimeconfig.cache
