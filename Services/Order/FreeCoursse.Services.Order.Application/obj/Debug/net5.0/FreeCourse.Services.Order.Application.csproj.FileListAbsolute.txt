@@ -17,3 +17,5 @@ C:\Users\Samur\source\repos\MicroServices\Services\Order\FreeCoursse.Services.Or
 C:\Users\Samur\source\repos\MicroServices\Services\Order\FreeCoursse.Services.Order.Application\bin\Debug\net5.0\FreeCourse.Services.Order.Infrastructure.pdb
 C:\Users\Samur\source\repos\MicroServices\Services\Order\FreeCoursse.Services.Order.Application\bin\Debug\net5.0\FreeCourse.Services.Order.Domain.Core.pdb
 C:\Users\Samur\source\repos\MicroServices\Services\Order\FreeCoursse.Services.Order.Application\obj\Debug\net5.0\FreeCourse.Services.Order.Application.csproj.CopyComplete
+C:\Users\Samur\source\repos\MicroServices\Services\Order\FreeCoursse.Services.Order.Application\bin\Debug\net5.0\FreeCource.Shared.dll
+C:\Users\Samur\source\repos\MicroServices\Services\Order\FreeCoursse.Services.Order.Application\bin\Debug\net5.0\FreeCource.Shared.pdb

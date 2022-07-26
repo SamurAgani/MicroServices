@@ -179,6 +179,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -309,6 +315,9 @@
               },
               "C:\\Users\\Samur\\source\\repos\\MicroServices\\Services\\Order\\FreeCourse.Services.Order.Infrastructure\\FreeCourse.Services.Order.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\Samur\\source\\repos\\MicroServices\\Services\\Order\\FreeCourse.Services.Order.Infrastructure\\FreeCourse.Services.Order.Infrastructure.csproj"
+              },
+              "C:\\Users\\Samur\\source\\repos\\MicroServices\\Shared\\FreeCource.Shared\\FreeCource.Shared.csproj": {
+                "projectPath": "C:\\Users\\Samur\\source\\repos\\MicroServices\\Shared\\FreeCource.Shared\\FreeCource.Shared.csproj"
               }
             }
           }
@@ -322,6 +331,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
