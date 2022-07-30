@@ -16,6 +16,10 @@ namespace FreeCourse.Services.Order.Domain.OrderAggregate
         private readonly List<OrderItem> _orderItem;
         public IReadOnlyCollection<OrderItem> orderItems=> _orderItem;
 
+        public Order()
+        {
+
+        }
         public Order(string buyerId,Address address)
         {
             _orderItem = new List<OrderItem>();

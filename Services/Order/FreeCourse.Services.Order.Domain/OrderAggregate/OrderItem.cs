@@ -16,6 +16,10 @@ namespace FreeCourse.Services.Order.Domain.OrderAggregate
             ProductUrl = productUrl;
             Price = price;
         }
+        public OrderItem()
+        {
+
+        }
 
         public string ProductId { get; private set; }
         public string ProductName { get; private set; }

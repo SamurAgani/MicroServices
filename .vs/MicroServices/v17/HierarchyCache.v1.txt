@@ -1,4 +1,4 @@
-﻿++Solution 'MicroServices' ‎(6 of 6 projects)
+﻿++Solution 'MicroServices' ‎(11 of 11 projects)
 i:{00000000-0000-0000-0000-000000000000}:MicroServices.sln
 ++Solution Items
 i:{00000000-0000-0000-0000-000000000000}:Solution Items
@@ -9,36 +9,52 @@ i:{00000000-0000-0000-0000-000000000000}:Shared
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\views\shared\
 ++FreeCource.Shared
 i:{d391ee7e-f150-4c49-a380-f7c7383284c4}:FreeCource.Shared
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\shared\freecource.shared\bin\debug\netcoreapp3.1\freecource.shared.dll
 i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\shared\freecource.shared\bin\debug\netcoreapp3.1\freecource.shared.dll
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\shared\freecource.shared\bin\debug\netcoreapp3.1\freecource.shared.dll
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\shared\freecource.shared\bin\debug\netcoreapp3.1\freecource.shared.dll
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\shared\freecource.shared\bin\debug\netcoreapp3.1\freecource.shared.dll
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\shared\freecource.shared\bin\debug\netcoreapp3.1\freecource.shared.dll
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\shared\freecource.shared\bin\debug\netcoreapp3.1\freecource.shared.dll
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\shared\freecource.shared\freecource.shared.csproj
 ++Dependencies
-i:{0b4d561b-6fa1-48af-8fd2-decde57c749d}:>741
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:>1687
-i:{594d4074-b614-480e-834b-592006073282}:>1544
-i:{45a8c101-4384-4260-aff6-64502705b091}:>1543
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:>1545
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>1546
+i:{0b4d561b-6fa1-48af-8fd2-decde57c749d}:>756
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:>2297
+i:{594d4074-b614-480e-834b-592006073282}:>2299
+i:{45a8c101-4384-4260-aff6-64502705b091}:>2302
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:>2301
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:>2298
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:>962
+i:{a279c5ea-6dc1-4716-9127-8632461e0d5a}:>1273
+i:{2f8a4526-0a3d-4c46-9bd2-6f0873983d35}:>1145
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:>1280
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>2300
 ++ControllerBases
 i:{0b4d561b-6fa1-48af-8fd2-decde57c749d}:c:\users\samur\source\repos\microservices\shared\freecource.shared\controllerbases\
 ++Dtos
 i:{0b4d561b-6fa1-48af-8fd2-decde57c749d}:c:\users\samur\source\repos\microservices\shared\freecource.shared\dtos\
 i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\dtos\
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\dtos\
 ++Services
 i:{0b4d561b-6fa1-48af-8fd2-decde57c749d}:c:\users\samur\source\repos\microservices\shared\freecource.shared\services\
 i:{00000000-0000-0000-0000-000000000000}:Services
-i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\services\
 i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\services\
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\services\
+i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\services\
 i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\services\
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\services\
+++ISharedIdentityService.cs
+i:{0b4d561b-6fa1-48af-8fd2-decde57c749d}:c:\users\samur\source\repos\microservices\shared\freecource.shared\services\isharedidentityservice.cs
+++SharedIdentityService.cs
+i:{0b4d561b-6fa1-48af-8fd2-decde57c749d}:c:\users\samur\source\repos\microservices\shared\freecource.shared\services\sharedidentityservice.cs
 ++Frameworks
 i:{0b4d561b-6fa1-48af-8fd2-decde57c749d}:frameworks
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:frameworks
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:frameworks
 i:{594d4074-b614-480e-834b-592006073282}:frameworks
 i:{45a8c101-4384-4260-aff6-64502705b091}:frameworks
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:frameworks
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:frameworks
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:frameworks
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:frameworks
+i:{a279c5ea-6dc1-4716-9127-8632461e0d5a}:frameworks
+i:{2f8a4526-0a3d-4c46-9bd2-6f0873983d35}:frameworks
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:frameworks
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:frameworks
 ++CustomBaseController.cs
 i:{0b4d561b-6fa1-48af-8fd2-decde57c749d}:c:\users\samur\source\repos\microservices\shared\freecource.shared\controllerbases\custombasecontroller.cs
@@ -46,144 +62,208 @@ i:{0b4d561b-6fa1-48af-8fd2-decde57c749d}:c:\users\samur\source\repos\microservic
 i:{0b4d561b-6fa1-48af-8fd2-decde57c749d}:c:\users\samur\source\repos\microservices\shared\freecource.shared\dtos\nocontent.cs
 ++ResposeDto.cs
 i:{0b4d561b-6fa1-48af-8fd2-decde57c749d}:c:\users\samur\source\repos\microservices\shared\freecource.shared\dtos\resposedto.cs
-++ISharedIdentityService.cs
-i:{0b4d561b-6fa1-48af-8fd2-decde57c749d}:c:\users\samur\source\repos\microservices\shared\freecource.shared\services\isharedidentityservice.cs
-++SharedIdentityService.cs
-i:{0b4d561b-6fa1-48af-8fd2-decde57c749d}:c:\users\samur\source\repos\microservices\shared\freecource.shared\services\sharedidentityservice.cs
 ++Microsoft.AspNetCore.App
 i:{0b4d561b-6fa1-48af-8fd2-decde57c749d}:c:\users\samur\source\repos\microservices\shared\freecource.shared\microsoft.aspnetcore.app
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\microsoft.aspnetcore.app
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\microsoft.aspnetcore.app
 i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\microsoft.aspnetcore.app
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\microsoft.aspnetcore.app
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\microsoft.aspnetcore.app
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\microsoft.aspnetcore.app
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.api\microsoft.aspnetcore.app
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\microsoft.aspnetcore.app
 ++Microsoft.NETCore.App
 i:{0b4d561b-6fa1-48af-8fd2-decde57c749d}:c:\users\samur\source\repos\microservices\shared\freecource.shared\microsoft.netcore.app
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\microsoft.netcore.app
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\microsoft.netcore.app
 i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\microsoft.netcore.app
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\microsoft.netcore.app
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\microsoft.netcore.app
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\microsoft.netcore.app
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.api\microsoft.netcore.app
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\microsoft.netcore.app
+i:{a279c5ea-6dc1-4716-9127-8632461e0d5a}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.domain\microsoft.netcore.app
+i:{2f8a4526-0a3d-4c46-9bd2-6f0873983d35}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.domain.core\microsoft.netcore.app
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.infrastructure\microsoft.netcore.app
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\microsoft.netcore.app
-++Discount
-i:{27ec4461-f8ca-432d-a7dd-7b25010d986c}:Discount
-++Course.Services.Discount
-i:{1d902298-d3b4-4901-9386-5b5ad4c822a3}:Course.Services.Discount
+++Basket
+i:{27ec4461-f8ca-432d-a7dd-7b25010d986c}:Basket
+++Services.Basket
+i:{4a845aa8-c60a-4cca-a2fb-a8e21f1ceb64}:Services.Basket
 ++Connected Services 
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:>1685
-i:{594d4074-b614-480e-834b-592006073282}:>1547
-i:{45a8c101-4384-4260-aff6-64502705b091}:>1553
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:>1549
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>1548
-++Analyzers
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:analyzers
-i:{594d4074-b614-480e-834b-592006073282}:analyzers
-i:{45a8c101-4384-4260-aff6-64502705b091}:analyzers
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:analyzers
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:analyzers
-++Packages
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:packages
-i:{594d4074-b614-480e-834b-592006073282}:packages
-i:{45a8c101-4384-4260-aff6-64502705b091}:packages
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:packages
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:packages
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:>2306
+i:{594d4074-b614-480e-834b-592006073282}:>2304
+i:{45a8c101-4384-4260-aff6-64502705b091}:>2308
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:>2303
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:>2305
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>2307
 ++Properties
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\properties\
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\properties\
 i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\properties\
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\properties\
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\properties\
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\properties\
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.api\properties\
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\properties\
-++launchSettings.json
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\properties\launchsettings.json
-i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\properties\launchsettings.json
-i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\properties\launchsettings.json
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\properties\launchsettings.json
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\properties\launchsettings.json
 ++Controllers
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\controllers\
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\controllers\
 i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\controllers\
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\controllers\
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\controllers\
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\controllers\
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.api\controllers\
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\controllers\
+++DTOS
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\dtos\
+i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\dtos\
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\dtos\
+++Settings
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\settings\
+i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\settings\
 ++appsettings.json
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\appsettings.json
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\appsettings.json
 i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\appsettings.json
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\appsettings.json
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\appsettings.json
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\appsettings.json
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.api\appsettings.json
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\appsettings.json
-++appsettings.Development.json
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\appsettings.development.json
-i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\appsettings.development.json
-i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\appsettings.development.json
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\appsettings.development.json
 ++Program.cs
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\program.cs
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\program.cs
 i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\program.cs
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\program.cs
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\program.cs
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\program.cs
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.api\program.cs
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\program.cs
 ++Startup.cs
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\startup.cs
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\startup.cs
 i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\startup.cs
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\startup.cs
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\startup.cs
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\startup.cs
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.api\startup.cs
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\startup.cs
 ++No service dependencies discovered
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:>1686
-i:{594d4074-b614-480e-834b-592006073282}:>1551
-i:{45a8c101-4384-4260-aff6-64502705b091}:>1554
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:>1552
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>1550
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:>2309
+i:{594d4074-b614-480e-834b-592006073282}:>2313
+i:{45a8c101-4384-4260-aff6-64502705b091}:>2312
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:>2310
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:>2311
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>2314
+++Analyzers
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:analyzers
+i:{594d4074-b614-480e-834b-592006073282}:analyzers
+i:{45a8c101-4384-4260-aff6-64502705b091}:analyzers
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:analyzers
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:analyzers
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:analyzers
+i:{a279c5ea-6dc1-4716-9127-8632461e0d5a}:analyzers
+i:{2f8a4526-0a3d-4c46-9bd2-6f0873983d35}:analyzers
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:analyzers
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:analyzers
+++Packages
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:packages
+i:{594d4074-b614-480e-834b-592006073282}:packages
+i:{45a8c101-4384-4260-aff6-64502705b091}:packages
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:packages
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:packages
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:packages
+i:{a279c5ea-6dc1-4716-9127-8632461e0d5a}:packages
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:packages
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:packages
+++Projects
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:projects
+i:{594d4074-b614-480e-834b-592006073282}:projects
+i:{45a8c101-4384-4260-aff6-64502705b091}:projects
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:projects
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:projects
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:projects
+i:{a279c5ea-6dc1-4716-9127-8632461e0d5a}:projects
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:projects
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:projects
+++launchSettings.json
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\properties\launchsettings.json
+i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\properties\launchsettings.json
+i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\properties\launchsettings.json
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\properties\launchsettings.json
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.api\properties\launchsettings.json
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\properties\launchsettings.json
+++BasketsController.cs
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\controllers\basketscontroller.cs
+++BasketDto.cs
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\dtos\basketdto.cs
+++BasketItemDto.cs
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\dtos\basketitemdto.cs
+++BasketService.cs
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\services\basketservice.cs
+++IBasketServices.cs
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\services\ibasketservices.cs
+++RedisService.cs
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\services\redisservice.cs
+++RedisSettings.cs
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\settings\redissettings.cs
+++appsettings.Development.json
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\appsettings.development.json
+i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\appsettings.development.json
+i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\appsettings.development.json
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\appsettings.development.json
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.api\appsettings.development.json
 ++Microsoft.AspNetCore.Analyzers
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
 i:{594d4074-b614-480e-834b-592006073282}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
 ++Microsoft.AspNetCore.Components.Analyzers
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
 i:{594d4074-b614-480e-834b-592006073282}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
 ++Microsoft.AspNetCore.Mvc.Analyzers
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
 i:{594d4074-b614-480e-834b-592006073282}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
 ++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{594d4074-b614-480e-834b-592006073282}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{a279c5ea-6dc1-4716-9127-8632461e0d5a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{2f8a4526-0a3d-4c46-9bd2-6f0873983d35}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 ++Microsoft.CodeAnalysis.NetAnalyzers
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{594d4074-b614-480e-834b-592006073282}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{a279c5ea-6dc1-4716-9127-8632461e0d5a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{2f8a4526-0a3d-4c46-9bd2-6f0873983d35}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.AspNetCore.Authentication.JwtBearer (5.0.4)
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:>2371
+i:{594d4074-b614-480e-834b-592006073282}:>2403
+i:{45a8c101-4384-4260-aff6-64502705b091}:>2450
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:>2344
+++StackExchange.Redis (2.2.4)
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:>2372
 ++Swashbuckle.AspNetCore (5.6.3)
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:>1698
-i:{594d4074-b614-480e-834b-592006073282}:>1580
-i:{45a8c101-4384-4260-aff6-64502705b091}:>1612
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:>1618
+i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:>2370
+i:{594d4074-b614-480e-834b-592006073282}:>2398
+i:{45a8c101-4384-4260-aff6-64502705b091}:>2449
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:>2342
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:>2399
 ++Catalog
 i:{27ec4461-f8ca-432d-a7dd-7b25010d986c}:Catalog
 ++Course.Services.Catalog
 i:{05131d08-46df-473a-8429-57d42d433e7f}:Course.Services.Catalog
 ++Mapping
 i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\mapping\
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\mapping\
 ++Models
 i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\models\
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\models\
-++Settings
-i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\settings\
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\settings\
-++Projects
-i:{594d4074-b614-480e-834b-592006073282}:projects
-i:{45a8c101-4384-4260-aff6-64502705b091}:projects
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:projects
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:projects
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:projects
 ++CategoryController.cs
 i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\controllers\categorycontroller.cs
 ++CoursesController.cs
@@ -219,13 +299,9 @@ i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservic
 ++IDatabaseSettings.cs
 i:{594d4074-b614-480e-834b-592006073282}:c:\users\samur\source\repos\microservices\services\catalog\course.services.catalog\settings\idatabasesettings.cs
 ++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
-i:{594d4074-b614-480e-834b-592006073282}:>1577
-++Microsoft.AspNetCore.Authentication.JwtBearer (5.0.4)
-i:{594d4074-b614-480e-834b-592006073282}:>1583
-i:{45a8c101-4384-4260-aff6-64502705b091}:>1614
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:>1619
+i:{594d4074-b614-480e-834b-592006073282}:>2396
 ++MongoDB.Driver (2.15.1)
-i:{594d4074-b614-480e-834b-592006073282}:>1582
+i:{594d4074-b614-480e-834b-592006073282}:>2400
 ++PhotoStock
 i:{27ec4461-f8ca-432d-a7dd-7b25010d986c}:PhotoStock
 ++FreeCource.Services.PhotoStock
@@ -233,10 +309,6 @@ i:{bf90c17e-39db-4977-b4e6-34f6e32e0bb7}:FreeCource.Services.PhotoStock
 ++wwwroot
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\wwwroot\
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\wwwroot\
-++DTOS
-i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\dtos\
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\dtos\
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\dtos\
 ++photos
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\wwwroot\photos\
 ++PhotosController.cs
@@ -245,34 +317,123 @@ i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservic
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\dtos\photoclassdto.cs
 ++hd1967.mov
 i:{45a8c101-4384-4260-aff6-64502705b091}:c:\users\samur\source\repos\microservices\services\photostock\freecource.services.photostock\wwwroot\photos\hd1967.mov
-++Basket
-i:{27ec4461-f8ca-432d-a7dd-7b25010d986c}:Basket
-++Services.Basket
-i:{4a845aa8-c60a-4cca-a2fb-a8e21f1ceb64}:Services.Basket
-++BasketsController.cs
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\controllers\basketscontroller.cs
-++BasketDto.cs
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\dtos\basketdto.cs
-++BasketItemDto.cs
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\dtos\basketitemdto.cs
-++BasketService.cs
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\services\basketservice.cs
-++IBasketServices.cs
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\services\ibasketservices.cs
-++RedisService.cs
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\services\redisservice.cs
-++RedisSettings.cs
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:c:\users\samur\source\repos\microservices\services\basket\services.basket\settings\redissettings.cs
-++StackExchange.Redis (2.2.4)
-i:{1d9b9185-c9b8-48e5-a782-1da4f9a12111}:>1620
+++Discount
+i:{27ec4461-f8ca-432d-a7dd-7b25010d986c}:Discount
+++Course.Services.Discount
+i:{1d902298-d3b4-4901-9386-5b5ad4c822a3}:Course.Services.Discount
+++Model
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\model\
+++DiscountController.cs
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\controllers\discountcontroller.cs
+++Discount.cs
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\model\discount.cs
+++DisCountService.cs
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\services\discountservice.cs
+++IDiscountService.cs
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\services\idiscountservice.cs
+++Dapper.Contrib (2.0.78)
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:>2343
+++Npgsql (6.0.5)
+i:{e4281e67-9b5d-461b-a33d-438442aab426}:>2345
+++Order
+i:{27ec4461-f8ca-432d-a7dd-7b25010d986c}:Order
+++FreeCourse.Services.Order.API
+i:{c14a0c09-7724-4821-ad61-d704f20364de}:FreeCourse.Services.Order.API
+++OrdersController.cs
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.api\controllers\orderscontroller.cs
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\users\samur\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:c:\users\samur\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.AspNetCore.Authentication.JwtBearer (5.0.5)
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:>2401
+++Microsoft.EntityFrameworkCore.Design (5.0.4)
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:>2397
+++FreeCourse.Services.Order.Application
+i:{4212a1a6-6552-4cd7-b26e-35a3a5af8755}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\bin\debug\net5.0\freecourse.services.order.application.dll
+i:{c14a0c09-7724-4821-ad61-d704f20364de}:FreeCourse.Services.Order.Application
+++Command
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\command\
+++Handlers
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\handlers\
+++Queries
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\queries\
+++CreateOrderCommand.cs
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\command\createordercommand.cs
+++AddressDto.cs
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\dtos\addressdto.cs
+++CreatedOrderDto.cs
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\dtos\createdorderdto.cs
+++OrderDto.cs
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\dtos\orderdto.cs
+++OrderItemDto.cs
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\dtos\orderitemdto.cs
+++CreateOrderCommandHandler.cs
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\handlers\createordercommandhandler.cs
+++GetOrdersByUserIdQueryHandler.cs
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\handlers\getordersbyuseridqueryhandler.cs
+++CustomMapping.cs
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\mapping\custommapping.cs
+++ObjectMapper.cs
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\mapping\objectmapper.cs
+++GetOrdersByUserIdQuery.cs
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecoursse.services.order.application\queries\getordersbyuseridquery.cs
+++AutoMapper (10.1.1)
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:>2358
+++FreeCourse.Services.Order.Domain
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.domain\bin\debug\net5.0\freecourse.services.order.domain.dll
+i:{c14a0c09-7724-4821-ad61-d704f20364de}:FreeCourse.Services.Order.Domain
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.domain\bin\debug\net5.0\freecourse.services.order.domain.dll
+++FreeCourse.Services.Order.Infrastructure
+i:{509b180b-2e78-410c-a153-14f9417df1b7}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.infrastructure\bin\debug\net5.0\freecourse.services.order.infrastructure.dll
+i:{c14a0c09-7724-4821-ad61-d704f20364de}:FreeCourse.Services.Order.Infrastructure
+++OrderAggregate
+i:{a279c5ea-6dc1-4716-9127-8632461e0d5a}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.domain\orderaggregate\
+++Address.cs
+i:{a279c5ea-6dc1-4716-9127-8632461e0d5a}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.domain\orderaggregate\address.cs
+++Order.cs
+i:{a279c5ea-6dc1-4716-9127-8632461e0d5a}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.domain\orderaggregate\order.cs
+++OrderItem.cs
+i:{a279c5ea-6dc1-4716-9127-8632461e0d5a}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.domain\orderaggregate\orderitem.cs
+++MediatR.Extensions.Microsoft.DependencyInjection (9.0.0)
+i:{a279c5ea-6dc1-4716-9127-8632461e0d5a}:>2326
+++FreeCourse.Services.Order.Domain.Core
+i:{a279c5ea-6dc1-4716-9127-8632461e0d5a}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.domain.core\bin\debug\net5.0\freecourse.services.order.domain.core.dll
+i:{c14a0c09-7724-4821-ad61-d704f20364de}:FreeCourse.Services.Order.Domain.Core
+++Entity.cs
+i:{2f8a4526-0a3d-4c46-9bd2-6f0873983d35}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.domain.core\entity.cs
+++IAggregateRoot.cs
+i:{2f8a4526-0a3d-4c46-9bd2-6f0873983d35}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.domain.core\iaggregateroot.cs
+++ValueObject.cs
+i:{2f8a4526-0a3d-4c46-9bd2-6f0873983d35}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.domain.core\valueobject.cs
+++Migrations
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.infrastructure\migrations\
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\migrations\
+++OrderDbContext.cs
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.infrastructure\orderdbcontext.cs
+++20220730080352_initial.cs
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.infrastructure\migrations\20220730080352_initial.cs
+++20220730080530_initial2.cs
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.infrastructure\migrations\20220730080530_initial2.cs
+++OrderDbContextModelSnapshot.cs
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.infrastructure\migrations\orderdbcontextmodelsnapshot.cs
+++Microsoft.EntityFrameworkCore (5.0.4)
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:>2423
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.4)
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:>2424
+++Microsoft.EntityFrameworkCore.Tools (5.0.4)
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:>2427
+++20220730080352_initial.Designer.cs
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.infrastructure\migrations\20220730080352_initial.designer.cs
+++20220730080530_initial2.Designer.cs
+i:{bc70e4e6-4b09-42c3-8b51-4366b4ab8f35}:c:\users\samur\source\repos\microservices\services\order\freecourse.services.order.infrastructure\migrations\20220730080530_initial2.designer.cs
 ++IdentityServer
 i:{00000000-0000-0000-0000-000000000000}:IdentityServer
 ++FreeCourse.IdentityServer
 i:{3c415c6c-129a-40f7-8560-82ab11c31fc2}:FreeCourse.IdentityServer
 ++Data
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\data\
-++Migrations
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\migrations\
 ++Quickstart
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\quickstart\
 ++Views
@@ -341,26 +502,24 @@ i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservic
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\views\_viewimports.cshtml
 ++_ViewStart.cshtml
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\views\_viewstart.cshtml
-++Microsoft.EntityFrameworkCore.Analyzers
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 ++IdentityServer4.AspNetIdentity (4.0.0)
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>1581
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>2429
 ++Microsoft.AspNetCore.Authentication.Google (3.1.5)
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>1586
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>2433
 ++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (3.1.5)
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>1584
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>2430
 ++Microsoft.AspNetCore.Identity.EntityFrameworkCore (3.1.5)
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>1587
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>2434
 ++Microsoft.AspNetCore.Identity.UI (3.1.5)
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>1590
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>2436
 ++Microsoft.EntityFrameworkCore.Sqlite (3.1.5)
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>1585
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>2432
 ++Microsoft.EntityFrameworkCore.SqlServer (3.1.5)
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>1578
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>2425
 ++Microsoft.EntityFrameworkCore.Tools (3.1.5)
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>1588
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>2435
 ++Serilog.AspNetCore (3.2.0)
-i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>1579
+i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:>2426
 ++site.scss
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\wwwroot\css\site.scss
 ++signin-redirect.js
@@ -694,16 +853,3 @@ i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservic
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\wwwroot\lib\jquery\dist\jquery.slim.min.map
 ++bootstrap.bundle.min.js.map
 i:{fc24fda1-9abb-482f-b35e-91c6c9937c26}:c:\users\samur\source\repos\microservices\identityserver\freecourse.identityserver\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-++Dapper.Contrib (2.0.78)
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:>1762
-++NewFolder
-++Model
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\model\
-++Discount.cs
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\model\discount.cs
-++IDiscountService.cs
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\services\idiscountservice.cs
-++Npgsql (6.0.5)
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:>1773
-++DisCountService.cs
-i:{e4281e67-9b5d-461b-a33d-438442aab426}:c:\users\samur\source\repos\microservices\services\discount\course.services.discount\services\discountservice.cs

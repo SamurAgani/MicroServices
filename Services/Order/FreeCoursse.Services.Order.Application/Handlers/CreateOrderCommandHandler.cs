@@ -16,6 +16,11 @@ namespace FreeCourse.Services.Order.Application.Handlers
     public class CreateOrderCommandHandler : IRequestHandler<CreateOrderCommand, Response<CreatedOrderDto>>
     {
         private readonly OrderDbContext context;
+
+        public CreateOrderCommandHandler(OrderDbContext context)
+        {
+            this.context = context;
+        }
         public async Task<Response<CreatedOrderDto>> Handle(CreateOrderCommand request, CancellationToken cancellationToken)
         {
             var newAddress = new Address(request.Address.Province,request.Address.District,
@@ -26,11 +31,8 @@ namespace FreeCourse.Services.Order.Application.Handlers
                 order.AddOrderItem(x.ProductId,x.ProductName,x.Price,x.ProductUrl);
             });
             await context.Orders.AddAsync(order);
+            await context.SaveChangesAsync();
             return Response<CreatedOrderDto>.Success(new CreatedOrderDto { OrderId = order.Id },200);
-        }
-        public CreateOrderCommandHandler(OrderDbContext context)
-        {
-            this.context = context;
         }
     }
 }
