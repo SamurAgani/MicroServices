@@ -7,3 +7,4 @@ services
 identity => 5001
 FakePayment => 5016
 GateWay => 5000
+Web => 5010
