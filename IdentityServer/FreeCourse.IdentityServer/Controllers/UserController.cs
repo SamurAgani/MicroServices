@@ -40,7 +40,11 @@ namespace FreeCourse.IdentityServer.Controllers
         [Route("/api/[controller]/GetUser")]
         public async Task<IActionResult> GetUser(string userName,string passWord)
         {
-            var user = await userManager.FindByNameAsync(userName);
+            var userIdClaim = User.Claims.FirstOrDefault(x => x.Type == JwtRegisteredClaimNames.Sub);
+
+            if (userIdClaim == null) return BadRequest();
+
+            var user = await userManager.FindByIdAsync(userIdClaim.Value);
 
             if (user == null) return BadRequest();
 

@@ -9,11 +9,12 @@
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Log in</h5>
+                <div asp-validation-summary="ModelOnly" calss="text-danger"></div>
                 <form  asp-action="SignIn" asp-controller="Auth" method="post">
                     <div class="mb-3">
                         <label asp-for="Email" for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" asp-for="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <span class="text-danger" asp-validation-for="Email"></span>
+                        <input type="text" asp-for="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <span class="text-danger"></span>
                     </div>
                     <div class="mb-3">
                         <label asp-for="Password" for="exampleInputPassword1" class="form-label">Password</label>
