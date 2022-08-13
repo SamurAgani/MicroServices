@@ -6,6 +6,6 @@ namespace FreeCource.Shared.Services
 {
     public interface ISharedIdentityService
     {       
-        public string GetUserId();
+        public string GetUserId { get; }
     }
 }

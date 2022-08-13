@@ -1,3 +1,4 @@
+using FreeCource.Shared.Services;
 using FreeCourse.Web.Handler;
 using FreeCourse.Web.Models;
 using FreeCourse.Web.Services;
@@ -29,20 +30,25 @@ namespace FreeCourse.Web
         {
             services.Configure<ClientSettings>(Configuration.GetSection("ClientSettings"));
             services.Configure<ServiceApiSettings>(Configuration.GetSection("ServiceApiSettings"));
-            var serviceApiSettings = Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSettings>();
             services.AddHttpContextAccessor();
-            services.AddHttpClient<IIdentityService, IdentityService>();
+            services.AddAccessTokenManagement();
+            services.AddScoped<ISharedIdentityService, SharedIdentityService>();
+
+            var serviceApiSettings = Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSettings>();
             services.AddScoped<ResourceOwnerPasswordTokenHandler>();
+            services.AddScoped<ClientCredentialTokenHandler>();
+
+            services.AddHttpClient<IClientCredentialTokenService, ClientCredentialTokenService>();
+            services.AddHttpClient<IIdentityService, IdentityService>();
             services.AddHttpClient<ICatalogService, CatalogService>(opt =>
             {
                 opt.BaseAddress = new Uri($"{serviceApiSettings.GatewayBaseUri}/{serviceApiSettings.Catalog.Path}");
-            });
+            }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
             services.AddHttpClient<IUserService, UserService>(opt =>
             {
                 opt.BaseAddress = new Uri(serviceApiSettings.IdentityBaseUri);
             }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
-
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(
             CookieAuthenticationDefaults.AuthenticationScheme, opts =>
             {
