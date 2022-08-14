@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 
 namespace Course.Services.Catalog.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class CoursesController : CustomBaseController
     {
         private readonly ICourseService _courseService;
@@ -26,14 +28,13 @@ namespace Course.Services.Catalog.Controllers
         }
 
         [HttpGet]
-        [Route("/api/[controller]/GetAll")]
         public async Task<IActionResult> GetAll()
         {
             var response = await _courseService.GetAllAsync();
             return CreateActionResultInstance(response);
         }
         [HttpGet]
-        [Route("/api/[controller]/GetByUserId")]
+        [Route("/api/[controller]/GetByUserId/{userId}")]
         public async Task<IActionResult> GetByUserId(string userid)
         {
             var response = await _courseService.GetByUserId(userid);
@@ -49,15 +50,13 @@ namespace Course.Services.Catalog.Controllers
         }
 
         [HttpPut]
-        [Route("/api/[controller]/Update")]
         public async Task<IActionResult> Update(CourseUpdateDto courseCreateDto)
         {
             var response = await _courseService.UpdateAsync(courseCreateDto);
             return CreateActionResultInstance(response);
         }
 
-        [HttpDelete]
-        [Route("/api/[controller]/Delete/{Id}")]
+        [HttpDelete("{Id}")]
         public async Task<IActionResult> DeleteById(string Id)
         {
             var response = await _courseService.DeleteAsync(Id);

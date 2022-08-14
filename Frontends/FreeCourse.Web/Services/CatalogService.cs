@@ -20,7 +20,7 @@ namespace FreeCourse.Web.Services
 
         public async Task<bool> CreateCourseAsync(CourseCreateInput courseCreateInput)
         {
-            var response = await httpClient.PostAsJsonAsync<CourseCreateInput>("course/create",courseCreateInput);
+            var response = await httpClient.PostAsJsonAsync<CourseCreateInput>("courses/Create", courseCreateInput);
             return response.IsSuccessStatusCode;
         }
 
@@ -50,7 +50,7 @@ namespace FreeCourse.Web.Services
 
         public async Task<List<CourseVM>> GetAllCourseByUserId(string userId)
         {
-            var response = await httpClient.GetAsync($"course/GetByUserId/{userId}");
+            var response = await httpClient.GetAsync($"courses/GetByUserId/{userId}");
             if (!response.IsSuccessStatusCode)
                 return null;
             var responseSuccess = await response.Content.ReadFromJsonAsync<Response<List<CourseVM>>>();
@@ -59,7 +59,7 @@ namespace FreeCourse.Web.Services
 
         public async Task<CourseVM> GetByCourseId(string courseId)
         {
-            var response = await httpClient.GetAsync($"course/GetById/{courseId}");
+            var response = await httpClient.GetAsync($"courses/GetById/{courseId}");
             if (!response.IsSuccessStatusCode)
                 return null;
             var responseSuccess = await response.Content.ReadFromJsonAsync<Response<CourseVM>>();
@@ -68,7 +68,7 @@ namespace FreeCourse.Web.Services
 
         public async Task<bool> UpdateCourseAsync(CourseUpdateInput courseCreateInput)
         {
-            var response = await httpClient.PutAsJsonAsync<CourseUpdateInput>("course/create", courseCreateInput);
+            var response = await httpClient.PutAsJsonAsync<CourseUpdateInput>("courses/create", courseCreateInput);
             return response.IsSuccessStatusCode;
         }
     }
