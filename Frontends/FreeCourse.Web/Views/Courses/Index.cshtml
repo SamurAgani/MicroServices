@@ -28,16 +28,27 @@
                             <th>
                                 Time
                             </th>
+                              <th>
+                                Category
+                            </th>
+                            <th>
+                                Operations
+                            </th>
                         </tr>
                     </thead>
                     <tbody>
                         @foreach(var item in Model)
                         {
                             <tr>
-                                <td></td>
+                                <td><img src="@item.Picture" class="img-thumbnail" style="width:72px;"></img></td>
                                 <td>@item.Name</td>
                                 <td>@item.Price</td>
                                 <td>@item.Feature.Duration</td>
+                                <td>@item.Category.Name</td>
+                                <td>
+                                    <a asp-controller="Courses" asp-action="Update" asp-route-id="@item.Id" class="btn btn-success btn-sm">Update</a>
+                                    <a asp-controller="Courses" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                                </td>
                             </tr>
                         }
                     </tbody>

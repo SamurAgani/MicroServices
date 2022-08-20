@@ -26,7 +26,7 @@ namespace FreeCource.Services.PhotoStock.Controllers
 
                 using var stream = new FileStream(path, FileMode.Create);
                 await photo.CopyToAsync(stream, cancellationToken);
-                var returnPath = "photos/" + photo.FileName;
+                var returnPath = photo.FileName;
                 return CreateActionResultInstance<PhotoClassDto>(Response<PhotoClassDto>.Success(new PhotoClassDto { url = returnPath },200));
             }
             else
@@ -37,7 +37,7 @@ namespace FreeCource.Services.PhotoStock.Controllers
         [HttpDelete]
         public IActionResult PhotoDelete(string photoUrl)
         {
-            var path = Directory.GetCurrentDirectory()+ "/wwwroot/photos"+ photoUrl;
+            var path = Directory.GetCurrentDirectory()+ "wwwroot/photos"+ photoUrl;
             if (System.IO.File.Exists(path))
             {
                 System.IO.File.Delete(path);
