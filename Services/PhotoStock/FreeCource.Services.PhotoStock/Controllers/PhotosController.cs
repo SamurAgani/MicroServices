@@ -45,5 +45,6 @@ namespace FreeCource.Services.PhotoStock.Controllers
             }
             return CreateActionResultInstance(Response<NoContent>.Fail("photo not found!", 404));
         }
+
     }
 }

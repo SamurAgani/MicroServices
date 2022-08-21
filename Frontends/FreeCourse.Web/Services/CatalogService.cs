@@ -51,13 +51,13 @@ namespace FreeCourse.Web.Services
 
         public async Task<List<CourseVM>> GetAllCourse()
         {
-            var response = await httpClient.GetAsync("courses/GetAll");
+            var response = await httpClient.GetAsync("courses");
             if (!response.IsSuccessStatusCode)
                 return null;
             var responseSuccess = await response.Content.ReadFromJsonAsync<Response<List<CourseVM>>>();
             responseSuccess.Data.ForEach(x =>
             {
-                x.Picture = photoHelper.GetPhotoStockUrl(x.Picture);
+                x.StockPictureUrl = photoHelper.GetPhotoStockUrl(x.Picture);
             });
             return responseSuccess.Data;
         }
@@ -71,7 +71,7 @@ namespace FreeCourse.Web.Services
 
             responseSuccess.Data.ForEach(x =>
             {
-                x.Picture = photoHelper.GetPhotoStockUrl(x.Picture);
+                x.StockPictureUrl = photoHelper.GetPhotoStockUrl(x.Picture);
             });
             return responseSuccess.Data;
         }
@@ -82,12 +82,19 @@ namespace FreeCourse.Web.Services
             if (!response.IsSuccessStatusCode)
                 return null;
             var responseSuccess = await response.Content.ReadFromJsonAsync<Response<CourseVM>>();
+            responseSuccess.Data.StockPictureUrl = photoHelper.GetPhotoStockUrl(responseSuccess.Data.Picture);
             return responseSuccess.Data;
         }
 
-        public async Task<bool> UpdateCourseAsync(CourseUpdateInput courseCreateInput)
+        public async Task<bool> UpdateCourseAsync(CourseUpdateInput courseUpdateInput)
         {
-            var response = await httpClient.PutAsJsonAsync<CourseUpdateInput>("courses", courseCreateInput);
+            var resultPhoto = await photoStockService.UploadPhoto(courseUpdateInput.PhotoFormFile);
+            if (resultPhoto != null)
+            {
+                await photoStockService.DeletePhoto(courseUpdateInput.Picture);
+                courseUpdateInput.Picture = resultPhoto.Url;
+            }
+            var response = await httpClient.PutAsJsonAsync<CourseUpdateInput>("courses", courseUpdateInput);
             return response.IsSuccessStatusCode;
         }
     }
