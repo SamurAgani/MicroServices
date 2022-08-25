@@ -6,7 +6,7 @@ namespace FreeCourse.Web.Services.Interfaces
     public interface IBasketService
     {
         Task<bool> SaveOrUpdate(BasketViewModel basketViewModel);
-        Task<BasketItemViewModel> Get();
+        Task<BasketViewModel> Get();
         Task<bool> Delete();
         Task AddBasketItem(BasketItemViewModel basketItemViewModel);
 

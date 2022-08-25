@@ -24,19 +24,19 @@ namespace Services.Basket.Controllers
         [HttpGet]
         public async Task<IActionResult> GetBasket()
         {
-            return CreateActionResultInstance(await basketServices.GetBasket(sharedIdentityService.GetUserId()));
+            return CreateActionResultInstance(await basketServices.GetBasket(sharedIdentityService.GetUserId));
         }
         [HttpPost]
         public async Task<IActionResult> SaveOrUpdateBasket(BasketDto basketDto)
         {
+            basketDto.UserId = sharedIdentityService.GetUserId;
             var response = await basketServices.SaveOrUpdate(basketDto);
             return CreateActionResultInstance(response);
-
         }
         [HttpDelete]
         public async Task<IActionResult> Delete()
         {
-            return CreateActionResultInstance(await basketServices.Delete(sharedIdentityService.GetUserId()));
+            return CreateActionResultInstance(await basketServices.Delete(sharedIdentityService.GetUserId));
 
         }
     }
