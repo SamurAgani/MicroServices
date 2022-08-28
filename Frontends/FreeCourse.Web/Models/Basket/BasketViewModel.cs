@@ -11,7 +11,7 @@ namespace FreeCourse.Web.Models.Basket
         public int? DiscountRate { get; set; }
 
 
-        public List<BasketItemViewModel> basketItems { get; set; }
+        public List<BasketItemViewModel> _basketItems { get; set; } = new List<BasketItemViewModel>();
 
         public List<BasketItemViewModel> BasketItems
         {
@@ -19,21 +19,21 @@ namespace FreeCourse.Web.Models.Basket
             {
                 if (HasDiscount)
                 {
-                    basketItems.ForEach(x =>
+                    _basketItems.ForEach(x =>
                     {
                         var discountPrice = x.Price * ((decimal)DiscountRate.Value / 100);
                         x.AppliedDiscount(Math.Round(x.Price - discountPrice, 2));
                     });
                 }
-                return basketItems;
+                return _basketItems;
 
             }
             set
             {
-                basketItems = value;
+                _basketItems = value;
             }
         }
-        public decimal TotalPrice { get => basketItems.Sum(x=>x.GetCurrentPrice); }
+        public decimal TotalPrice { get => _basketItems.Sum(x=>x.GetCurrentPrice); }
 
         public bool HasDiscount
         {

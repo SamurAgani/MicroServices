@@ -22,9 +22,9 @@ namespace FreeCourse.Web.Services
             var basket = await Get();
             if(basket != null)
             {
-                if(!basket.basketItems.Any(x=>x.CourseId == basketItemViewModel.CourseId))
+                if(!basket._basketItems.Any(x=>x.CourseId == basketItemViewModel.CourseId))
                 {
-                    basket.basketItems.Add(basketItemViewModel);
+                    basket._basketItems.Add(basketItemViewModel);
                 }
             }
             else
@@ -74,7 +74,7 @@ namespace FreeCourse.Web.Services
             {
                 return false;
             }
-            var deleteResult = basket.basketItems.Remove(deleteBasketItem);
+            var deleteResult = basket._basketItems.Remove(deleteBasketItem);
 
             if(deleteResult == false)
             {

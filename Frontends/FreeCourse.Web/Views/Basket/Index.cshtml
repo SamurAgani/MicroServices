@@ -1,0 +1,50 @@
+﻿@using FreeCourse.Web.Models.Basket
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@model BasketViewModel
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Basket</h5>
+                @if (Model != null && Model.BasketItems.Any())
+                {
+                    <table class="table table-striped">
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Processes</th>
+                        </tr>
+                        @foreach (var item in Model.BasketItems)
+                        {
+                            <tr>
+                                <td>@item.CourseName</td>
+                                <td>@item.GetCurrentPrice</td>
+                                <td>
+                                    <a asp-controller="Basket" asp-action="DeleteBasketItem" asp-route-courseId="@item.CourseId">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                        @if (Model.HasDiscount)
+                        {
+                            <tr>
+                                <td>Discount</td>
+                                <td colspan="2">%@Model.DiscountRate</td>
+                            </tr>
+                        }
+                        <tr>
+                            <td>@(Model.HasDiscount?"Discount price" : "Total price")</td>
+                            <th colspan="2">@Model.TotalPrice $</th>
+                        </tr>
+                    </table>
+                }
+            </div>
+        </div>
+
+    </div>
+</div>
+
