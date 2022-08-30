@@ -36,7 +36,7 @@ namespace Course.Services.Discount.Controllers
         [Route("/api/[controller]/[action]/{code}")]
         public async Task<IActionResult> GetByCode(string code)
         {
-            var userId = sharedIdentityService.GetUserId();
+            var userId = sharedIdentityService.GetUserId;
             return CreateActionResultInstance(await discountService.GetByCodeAndUserId(code,userId));
         }
 
