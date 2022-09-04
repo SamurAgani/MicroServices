@@ -25,12 +25,13 @@ namespace FreeCourse.Services.Order.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetOrders()
         {
-            var response = await mediator.Send(new GetOrdersByUserIdQuery() { UserId = sharedIdentityService.GetUserId()});
+            var response = await mediator.Send(new GetOrdersByUserIdQuery() { UserId = sharedIdentityService.GetUserId});
             return CreateActionResultInstance(response);
         }
         [HttpPost]
         public async Task<IActionResult> SaveOrder(CreateOrderCommand createOrderCommand)
         {
+            createOrderCommand.BuyerId = sharedIdentityService.GetUserId;
             var response = await mediator.Send(createOrderCommand);
             return CreateActionResultInstance(response);
         }
