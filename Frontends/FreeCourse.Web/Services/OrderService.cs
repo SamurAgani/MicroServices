@@ -17,11 +17,12 @@ namespace FreeCourse.Web.Services
         public readonly IBasketService basketService;
         public ISharedIdentityService sharedIdentityService;
 
-        public OrderService(IPaymentService paymentService, HttpClient httpClient, IBasketService basketService)
+        public OrderService(IPaymentService paymentService, HttpClient httpClient, IBasketService basketService, ISharedIdentityService sharedIdentityService)
         {
             this.paymentService = paymentService;
             this.httpClient = httpClient;
             this.basketService = basketService;
+            this.sharedIdentityService = sharedIdentityService;
         }
 
         public async Task<OrderCreatedViewModel> CreateOrder(CheckoutInfoInput checkoutInfoInput)
@@ -48,7 +49,7 @@ namespace FreeCourse.Web.Services
 
             basket.BasketItems.ForEach(x =>
             {
-                var orderItem = new OrderItemCreateInput { Price = x.Price, ProductId = x.CourseId, ProductName = x.CourseName, ProductUrl = "" };
+                var orderItem = new OrderItemCreateInput { Price = x.GetCurrentPrice, ProductId = x.CourseId, ProductName = x.CourseName, ProductUrl = "" };
                 orderCreateInput.OrderItems.Add(orderItem);
             });
             var response = await httpClient.PostAsJsonAsync<OrderCreateInput>("orders",orderCreateInput);
@@ -56,8 +57,10 @@ namespace FreeCourse.Web.Services
             {
                 return new OrderCreatedViewModel() { Error = "Payment error", IsSuccess = false };
             }
-            var orderCreated = await response.Content.ReadFromJsonAsync<OrderCreatedViewModel>();
-            return orderCreated;
+            var orderCreated = await response.Content.ReadFromJsonAsync<Response<OrderCreatedViewModel>>();
+            orderCreated.Data.IsSuccess = true;
+            await basketService.Delete();
+            return orderCreated.Data;
         }
 
         public async Task GetOrder()

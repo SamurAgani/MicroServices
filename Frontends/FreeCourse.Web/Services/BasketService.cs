@@ -68,7 +68,7 @@ namespace FreeCourse.Web.Services
 
         public async Task<bool> Delete()
         {
-            var result = await httpClient.DeleteAsync("basket");
+            var result = await httpClient.DeleteAsync("baskets");
             return result.IsSuccessStatusCode;
         }
 
