@@ -137,3 +137,4 @@ C:\Users\Samur\source\repos\MicroServices\Frontends\FreeCourse.Web\obj\Debug\net
 C:\Users\Samur\source\repos\MicroServices\Frontends\FreeCourse.Web\obj\Debug\net5.0\ref\FreeCourse.Web.dll
 C:\Users\Samur\source\repos\MicroServices\Frontends\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Order\Checkout.cshtml.g.cs
 C:\Users\Samur\source\repos\MicroServices\Frontends\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Order\SuccessfulCheckout.cshtml.g.cs
+C:\Users\Samur\source\repos\MicroServices\Frontends\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Order\Index.cshtml.g.cs

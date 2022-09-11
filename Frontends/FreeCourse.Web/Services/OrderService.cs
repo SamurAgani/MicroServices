@@ -103,12 +103,12 @@ namespace FreeCourse.Web.Services
             payment.TotalPrice = basket.TotalPrice;
             payment.Order = orderCreateInput;
 
-            var response = await httpClient.PostAsJsonAsync<OrderCreateInput>("orders", orderCreateInput);
-            if (!response.IsSuccessStatusCode)
+            var response = await paymentService.ReceivePayment(payment);
+            if (!response)
             {
                 return new OrderSuspendViewModel() { Error = "Payment error", IsSuccess = false };
             }
-
+            await basketService.Delete();
             return new OrderSuspendViewModel() { IsSuccess = true };
 
         }

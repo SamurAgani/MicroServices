@@ -31,6 +31,7 @@ namespace FreeCourse.Services.FakePayment.Controllers
             createOrderMessageCommand.Street = paymentDto.Order.Address.Street;
             createOrderMessageCommand.Line = paymentDto.Order.Address.Line;
             createOrderMessageCommand.District = paymentDto.Order.Address.District;
+            createOrderMessageCommand.ZipCode = paymentDto.Order.Address.ZipCode;
 
             paymentDto.Order.OrderItems.ForEach(i =>
             {

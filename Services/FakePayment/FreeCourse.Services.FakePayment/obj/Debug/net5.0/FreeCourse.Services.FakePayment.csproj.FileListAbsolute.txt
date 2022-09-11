@@ -35,3 +35,14 @@ C:\Users\Samur\source\repos\MicroServices\Services\FakePayment\FreeCourse.Servic
 C:\Users\Samur\source\repos\MicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Samur\source\repos\MicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Samur\source\repos\MicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Samur\source\repos\MicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\Automatonymous.dll
+C:\Users\Samur\source\repos\MicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\GreenPipes.dll
+C:\Users\Samur\source\repos\MicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\MassTransit.dll
+C:\Users\Samur\source\repos\MicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\MassTransit.AspNetCoreIntegration.dll
+C:\Users\Samur\source\repos\MicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\Samur\source\repos\MicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Samur\source\repos\MicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Samur\source\repos\MicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\NewId.dll
+C:\Users\Samur\source\repos\MicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Samur\source\repos\MicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Samur\source\repos\MicroServices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\RabbitMQ.Client.dll
