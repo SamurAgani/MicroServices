@@ -9,12 +9,12 @@ namespace FreeCourse.Services.Order.Domain.OrderAggregate
 {
     public class Order : Entity,IAggregateRoot
     {
-        public DateTime CreatedDate { get; private set; }
-        public Address Address { get; private set; }
-        public string BuyerId { get; private set; }
+        public DateTime CreatedDate { get; set; }
+        public Address Address { get; set; }
+        public string BuyerId { get; set; }
 
-        private readonly List<OrderItem> _orderItem;
-        public IReadOnlyCollection<OrderItem> orderItems=> _orderItem;
+      //  private List<OrderItem> _orderItem;
+        public List<OrderItem> orderItems { get; set; }
 
         public Order()
         {
@@ -22,18 +22,18 @@ namespace FreeCourse.Services.Order.Domain.OrderAggregate
         }
         public Order(string buyerId,Address address)
         {
-            _orderItem = new List<OrderItem>();
+            orderItems = new List<OrderItem>();
             CreatedDate = DateTime.Now;
             BuyerId = buyerId;
             Address = address;
         }
-        public decimal GetTotalPrice => _orderItem.Sum(x => x.Price);
+        public decimal GetTotalPrice => orderItems.Sum(x => x.Price);
         public void AddOrderItem(string productId,string productName,decimal price, string pictureUrl)
         {
-            var existProduct = _orderItem.Any(x => x.ProductId == productId);
+            var existProduct = orderItems.Any(x => x.ProductId == productId);
             if (!existProduct)
             {
-                _orderItem.Add(new OrderItem(productId, productName, pictureUrl, price));
+                orderItems.Add(new OrderItem(productId, productName, pictureUrl, price));
             }
         }
     }

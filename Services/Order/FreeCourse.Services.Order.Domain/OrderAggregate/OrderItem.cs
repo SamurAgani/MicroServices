@@ -21,12 +21,12 @@ namespace FreeCourse.Services.Order.Domain.OrderAggregate
 
         }
 
-        public string ProductId { get; private set; }
-        public string ProductName { get; private set; }
-        public string ProductUrl { get; private set; }
-        public Decimal Price { get; private set; }
+        public string ProductId { get;  set; }
+        public string ProductName { get;  set; }
+        public string ProductUrl { get;  set; }
+        public Decimal Price { get;  set; }
 
-        public void UpdateOrderItem(string productId, string productName, string productUrl, decimal price)
+        public void UpdateOrderItem( string productName, string productUrl, decimal price)
         {
             ProductName = productName;
             ProductUrl = productUrl;
