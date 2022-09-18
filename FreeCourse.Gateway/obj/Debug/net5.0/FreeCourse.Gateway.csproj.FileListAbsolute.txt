@@ -38,3 +38,6 @@ C:\Users\Samur\source\repos\MicroServices\FreeCourse.Gateway\bin\Debug\net5.0\Mi
 C:\Users\Samur\source\repos\MicroServices\FreeCourse.Gateway\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Samur\source\repos\MicroServices\FreeCourse.Gateway\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Samur\source\repos\MicroServices\FreeCourse.Gateway\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Samur\source\repos\MicroServices\FreeCourse.Gateway\bin\Debug\net5.0\IdentityModel.dll
+C:\Users\Samur\source\repos\MicroServices\FreeCourse.Gateway\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+C:\Users\Samur\source\repos\MicroServices\FreeCourse.Gateway\bin\Debug\net5.0\System.Text.Json.dll
