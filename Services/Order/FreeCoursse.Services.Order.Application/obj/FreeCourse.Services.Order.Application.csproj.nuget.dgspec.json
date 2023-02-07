@@ -14,7 +14,8 @@
         "outputPath": "C:\\Users\\Samur\\source\\repos\\MicroServices\\Services\\Order\\FreeCourse.Services.Order.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Samur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,7 +73,8 @@
         "outputPath": "C:\\Users\\Samur\\source\\repos\\MicroServices\\Services\\Order\\FreeCourse.Services.Order.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Samur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -140,7 +142,8 @@
         "outputPath": "C:\\Users\\Samur\\source\\repos\\MicroServices\\Services\\Order\\FreeCourse.Services.Order.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Samur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -218,7 +221,8 @@
         "outputPath": "C:\\Users\\Samur\\source\\repos\\MicroServices\\Services\\Order\\FreeCoursse.Services.Order.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Samur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -300,7 +304,8 @@
         "outputPath": "C:\\Users\\Samur\\source\\repos\\MicroServices\\Shared\\FreeCource.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Samur\\AppData\\Roaming\\NuGet\\NuGet.Config",
